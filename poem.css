@@ -1,0 +1,189 @@
+body{
+   background-color: rgb(209, 216, 245)
+
+}
+.box2{
+    width: 1000px;
+    height: 95px; 
+    background-color: rgb(152, 194, 226);
+    display: grid; 
+    margin-top: 300px;
+}
+.title{
+    font-family: bistro-script-web, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-family: bistro-script-web, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: fixed;
+    top: 200px;
+    left: 18px;
+    width: 400px;
+    font-size: 3em
+}
+
+.author{
+    font-family: bistro-script-web, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: fixed;
+    display: grid; 
+    margin: 110px 600px auto 150px; 
+    top: 10px;
+    width: 400px;
+    text-align: center;
+    font-size: 2.5em;
+    transform-origin: center;
+    transform: rotate(-90deg);
+}
+
+.cite{
+    font-family: helvetica, serif; 
+    font-weight: 100;
+    font-style: normal;
+    display: grid;
+    margin: 95px auto auto 600px;
+}
+
+.poem{
+    font-family: helvetica, serif; 
+    font-weight: 200;
+    font-style: normal; 
+    display: grid;
+    margin: 95px auto auto 700px;
+}
+
+
+
+
+/*----smartphone----*/
+
+@media only screen and (max-width: 800px){
+    body{
+        background: rgb(179, 223, 247);
+    }
+    .title{
+        font-family: bistro-script-web, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        top: 7px;
+        left: 18px;
+        width: 300px;
+        font-size: 5em
+    }
+    
+    .author{
+        font-family: bistro-script-web, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        top: 300px;
+        right: 100px;
+        width: 400px;
+        text-align: right;
+    }
+
+
+    .poem{
+        font-family: helvetica, serif; 
+        font-weight: 95;
+        font-style: normal; 
+        width: 600px;
+        display: grid; 
+        margin: 600px auto auto auto;
+        left: 50px; 
+        text-align: left;
+        font-size: 1.5em;
+    }
+
+    .cite{
+        font-family: helvetica, serif; 
+        font-weight: 100;
+        font-style: normal;
+        top: 1000px;
+        left: 100px;
+        width: 800px;
+        text-align: left;
+    }
+
+
+    
+
+
+   
+    
+}
+
+/*----tablets-----*/
+
+@media only screen and (min-width: 800px) and (max-width: 900px){
+    body{
+        background: white;
+    }
+    .box{
+        width: 119px;
+        height: 1587px;
+        background-color: rgb(203, 235, 202);
+        position: fixed;
+        display: grid; 
+        top: 1px; 
+        right: 500px;
+        left: 150px; 
+
+    }
+    .box2{
+        width: 100%;
+        height: 95px; 
+        background-color: rgb(152, 194, 226);
+        display: grid; 
+        margin-top: 400px
+    }
+    .title{
+        font-family: bistro-script-web, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        position: fixed;
+        top: 200px;
+        left: 18px;
+        width: 400px;
+        font-size: 3em
+    }
+    
+    .author{
+        font-family: bistro-script-web, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        position: fixed;
+        top: 10px;
+        left: 50px;
+        width: 400px;
+        text-align: left;
+        font-size: 2.5em;
+        transform-origin: center;
+        transform: rotate(-90deg);
+    }
+    
+    .cite{
+        font-family: helvetica, serif; 
+        font-weight: 100;
+        font-style: normal;
+        top: 900px;
+        left: 1000px;
+        width: 900px;
+        text-align: center;
+    }
+    
+    .poem{
+        font-family: helvetica, serif; 
+        font-weight: 95;
+        font-style: normal; 
+        width: 600px;
+        display: grid;
+        margin: auto auto auto 220px;
+        margin-top: 300px;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    
+}
+
